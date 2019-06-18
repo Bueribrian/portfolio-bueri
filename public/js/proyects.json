@@ -1,0 +1,59 @@
+[
+ {
+	"title": "natours",
+	"description": "Natours es una plantilla hecha con SASS, como proyecto del curso 'Advance SASS and CSS' de Udemy, en el cual se realiza animaciones y maquetado responsive",
+	"tools": ["html","sass"],
+	"url": "https://natours-pp.netlify.com",
+	"image": "./img/natours.png",
+	"githubUrl": "https://github.com/Bueribrian/Natours-course-sass"
+},
+{
+	"title": "trillo",
+	"description": "Trillo al igual que Natours es un proyecto de un curso de udemy pero a diferencia de ese, este esta realizado con css-grid",
+	"tools": ["html","sass"],
+	"url": "https://trillo-p.netlify.com/",
+	"image": "./img/trillo.png",
+	"githubUrl": "https://github.com/Bueribrian/Trillo"
+},
+{
+	"title": "decidite ya",
+	"description": "Una simple aplicacion con React, el cual esta toma una decision por vos, enlista por lo que no puedes decicidir y ella hace el trabajo",
+	"tools": ["react"],
+	"url": "https://decidite-ya.netlify.com",
+	"image": "./img/decidite-ya.png",
+	"githubUrl": "https://github.com/Bueribrian/Decidite-ya"
+},
+{
+	"title": "Hotel Resort",
+	"description": "Web app con react de un hotel ficticio, se utiliza sistemas de rutas con react-router y context.",
+	"tools": ["react","sass"],
+	"url": "https://natours-pp.netlify.com",
+	"image": "",
+	"githubUrl": "AGREGAR GITHUB"
+},
+{
+	"title": "coffe page",
+	"description": "Simple template con html y css, de una tienda ficticia de cafe!, solo eso.",
+	"tools": ["html", "css"],
+	"url": "https://coffestore.netlify.com/",
+	"image": "./img/coffe.jpg",
+	"githubUrl": "https://github.com/Bueribrian/Coffee-store"
+},
+{
+	"title": "type fast",
+	"description": "Juego de velocidad, preparate para teclear.",
+	"tools": ["js", "html"],
+	"url": "https://type-fast.netlify.com/",
+	"image": "./img/typefast.png",
+	"githubUrl": "https://github.com/Bueribrian/TypeFast"
+},
+{
+	"title": "tic tac toe",
+	"description": "El clasico juego hecho en react!",
+	"tools": ["react"],
+	"url": "ta-te-ti.netlify.com",
+	"image": "./img/tictactoe.png",
+	"githubUrl": "https://github.com/Bueribrian/TicTacToe"
+}
+
+]

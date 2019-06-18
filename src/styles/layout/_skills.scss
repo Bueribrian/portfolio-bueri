@@ -1,0 +1,27 @@
+#sectionSkills{
+ margin-top: 25rem;
+}
+.skill-container{
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+ grid-gap: 3rem;
+ margin-top: 20rem;
+ @include responsive(tab-land){
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+ }
+}
+.skill{
+ text-align: center;
+ z-index: 4;
+ font-size: 1.2rem;
+ line-height: 2;
+ color: $color-blue-dark1;
+ z-index: 20;
+ font-weight: 400;
+ & img{
+  height: 15rem;
+  width: 15rem;
+  margin-bottom: 1.5rem
+ }
+}

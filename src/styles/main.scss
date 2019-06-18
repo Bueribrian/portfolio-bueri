@@ -1,0 +1,16 @@
+@import './abstract/mediaQuerys';
+@import './abstract/variables';
+@import './abstract/utilities';
+@import './abstract/typography';
+
+
+@import './components/navbar';
+@import './components/btn';
+@import './components/hero';
+
+@import './layout/footer';
+@import './layout/skills';
+@import './layout/proyects';
+@import './layout/about';
+
+@import './base/base';

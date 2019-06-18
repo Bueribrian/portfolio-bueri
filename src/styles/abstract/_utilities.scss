@@ -1,0 +1,21 @@
+.container{
+ width: 100% ;
+ max-width: 1040px ;
+ margin: 0 auto;
+ &-big{
+  width: 100% ;
+  margin: 0 auto;
+  max-width: 1400px ;
+ }
+}
+
+
+.disabled{
+ display: flex !important;
+}
+.mt-xl{
+ margin-top: 10rem;
+}
+.ml-l{
+ margin-left: 3rem;
+}

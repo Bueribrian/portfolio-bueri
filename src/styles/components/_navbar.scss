@@ -1,0 +1,141 @@
+.navbar{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 50px;
+ z-index: 9999;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.btn-burger{
+ 
+ margin-top: 1rem;
+ margin-right: 1rem;
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: .4rem .3rem;
+ height: 35px;
+ width: 45px;
+ list-style: none;
+ 
+ box-sizing: border-box;
+ border-radius: 4px;
+ cursor: pointer;
+ z-index: 2;
+ &-item{
+  margin: .2rem 0;
+  height: 3px;
+  width: 80%;
+  border-radius: 8px;
+  background: $color-gray-dark;
+  transition: .3s all;
+  z-index: 1;
+ }
+ 
+}
+.activated .btn-burger-item:first-child {
+ transform: rotate(316deg);
+ margin-left: -.5rem;
+ margin-bottom: .4rem;
+ transform-origin: right;
+ box-shadow: 0 .4rem .8rem rgba($color-gray-dark,0.4)
+}
+.activated .btn-burger-item:nth-child(2) {
+ opacity: 0;
+}
+.activated .btn-burger-item:last-child {
+ margin-top: .4rem;
+ transform: rotate(-316deg);
+ margin-left: -.5rem;
+ transform-origin: right;
+}
+.navbar-menu{
+ position: fixed;
+ top: 80px;
+ right: 80px;
+ z-index: 33;
+ min-width: 25rem;
+ height: auto;
+ display: none;
+ flex-wrap: wrap;
+ flex-direction: column;
+ transition:.4s all;
+ @include responsive(tab){
+  top:80px;
+  left:50%;
+  transform:translate(-50%);
+ }
+
+
+ &-link{
+  padding: 1.5rem 3rem;
+  background: $color-gray-dark;
+  color:$color-white-smoke !important;
+  z-index: 34;
+  opacity: 0;
+  box-shadow: 0 .4rem .8rem rgba($color-gray-dark,0.4);
+  transition: .3s all;
+  margin: .2rem 0;
+  @include responsive(tab){
+   width: 30rem;
+  }
+  &:hover{
+   color: $color-white-smoke !important;
+   background: $color-purple-dark1;
+  }
+  &:first-child{
+   animation: heightAppear .3s ease-in-out both;
+   
+  }
+  &:nth-child(2){
+   animation: heightAppear .3s ease-in-out both;
+   animation-delay: .05s;
+  }
+  &:nth-child(3){
+   animation: heightAppear .3s ease-in-out both;
+   animation-delay: .15s;
+  }
+  &:nth-child(4){
+   animation: heightAppear .3s ease-in-out both;
+   animation-delay: .20s;
+  }
+  &:last-child{
+   animation: heightAppear .3s ease-in-out both;
+   animation-delay: .25s;
+  }
+ }
+
+}
+
+@keyframes heightAppear{
+ 0%{
+  opacity: 0;
+  transform: translateY(-100%) rotate(25deg);
+ }
+ 13%{
+  opacity: 1;
+  transform: rotate(-25deg);
+ }
+ 36%{
+  opacity: 1;
+  transform:  rotate(10deg);
+ }
+ 66%{
+  opacity: 1;
+  transform:  rotate(-10deg);
+ }
+ 99%{
+  opacity: 1;
+  transform: rotate(3deg);
+ }
+ 100%{
+  opacity: 1;
+ }
+}
+

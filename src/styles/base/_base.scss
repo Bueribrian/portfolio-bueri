@@ -1,0 +1,21 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+html,body{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ background-image: url('../bgGrid.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow-x: hidden;
+ scroll-behavior: smooth;
+}
+#root,.App{
+ 
+}
+section{
+ margin: 25rem 0;
+ position: relative;
+}
