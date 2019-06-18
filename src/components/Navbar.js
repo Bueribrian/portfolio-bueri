@@ -17,7 +17,6 @@ export default () => {
       <div className='navbar-menu'>
         <a href='#proyectsSection' className="navbar-menu-link">Practicas</a>
         <a href='#aboutme' className="navbar-menu-link">Sobre mi</a>
-        <a href='#sectionSkills' className="navbar-menu-link">Habilidades</a>
         <a href='#studies' className="navbar-menu-link">Estudios</a>
         <a href='#footer' className="navbar-menu-link">Contacto</a>
       </div>
