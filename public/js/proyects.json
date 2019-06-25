@@ -24,14 +24,6 @@
 	"githubUrl": "https://github.com/Bueribrian/Decidite-ya"
 },
 {
-	"title": "Hotel Resort",
-	"description": "Web app con react de un hotel ficticio, se utiliza sistemas de rutas con react-router y context.",
-	"tools": ["react","sass"],
-	"url": "https://natours-pp.netlify.com",
-	"image": "",
-	"githubUrl": "AGREGAR GITHUB"
-},
-{
 	"title": "coffe page",
 	"description": "Simple template con html y css, de una tienda ficticia de cafe!, solo eso.",
 	"tools": ["html", "css"],

@@ -53,7 +53,7 @@
  @include responsive(tab){
   width: 95%;
  
-  min-height:30rem;
+  max-height: 20rem;
  }
 
  
@@ -64,7 +64,7 @@
   transition: .3s all;
   filter: brightness(70%);
   @include responsive(tab){
-   display:none;
+   
   }
  }
  &-content{
