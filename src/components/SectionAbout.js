@@ -37,7 +37,7 @@ export default () => {
           <div className='about-social'>
            <a target='_blank' rel="noopener noreferrer" href='https://github.com/Bueribrian/'><img alt='icon linkedin' className='social-link' src='./img/github.svg'/></a>
            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/brian-bueri-838845155/'><img alt='icon github' className='social-link' src='./img/linkedin.svg'/></a>
-           <a className='btn btn-purple' href='./files/cv' download=''>Cv(&#8595;);</a>
+           <a className='btn btn-purple' href='./files/cv.pdf' download=''>Cv(&#8595;);</a>
           </div>
 
          </div>
