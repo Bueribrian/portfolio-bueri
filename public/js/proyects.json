@@ -43,7 +43,7 @@
 	"title": "tic tac toe",
 	"description": "El clasico juego hecho en react!",
 	"tools": ["react"],
-	"url": "ta-te-ti.netlify.com",
+	"url": "https://ta-te-ti.netlify.com",
 	"image": "./img/tictactoe.png",
 	"githubUrl": "https://github.com/Bueribrian/TicTacToe"
 }
