@@ -12,13 +12,13 @@ export default ({height}) => {
       </div>
       <div className='hero-social'>
         <div className='hero-social--icon'>
-          <a href='https://github.com/Bueribrian/'>
+          <a href=''>
         <i class="fab fa-github"></i>
 
           </a>
         </div>
         <div className='hero-social--icon'>
-        <a href='https://www.linkedin.com/in/brian-bueri-838845155/'>
+        <a href=''>
         <i class="fab fa-linkedin"></i>
 
           </a>
