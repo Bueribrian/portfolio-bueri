@@ -14,10 +14,10 @@ export default () => {
            </p>
            <span className='line'></span>
            <div className='about-content-info'>
-            <p>Edad: 22 años</p>
-            <p>Ubicación: Palermo</p>
-            <p>Disponibilidad: Full-time</p>
-            <p>Correo: bueribrian@hotmail.com</p>
+            <p>Edad: -- años</p>
+            <p>Ubicación: ------</p>
+            <p>Disponibilidad: -----</p>
+            <p>Correo: ------</p>
            </div>
            <div className='about-content-technologies'>
             <div className='about-content-technologies--item'>
@@ -35,9 +35,9 @@ export default () => {
            </div>
           </div>
           <div className='about-social'>
-           <a target='_blank' rel="noopener noreferrer" href='https://github.com/Bueribrian/'><img alt='icon linkedin' className='social-link' src='./img/github.svg'/></a>
-           <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/brian-bueri-838845155/'><img alt='icon github' className='social-link' src='./img/linkedin.svg'/></a>
-           <a className='btn btn-purple' href='./files/cv.pdf' download=''>Cv(&#8595;);</a>
+           <a target='_blank' rel="noopener noreferrer" href='https://github.com/'><img alt='icon linkedin' className='social-link' src='./img/github.svg'/></a>
+           <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/'><img alt='icon github' className='social-link' src='./img/linkedin.svg'/></a>
+           <a className='btn btn-purple' href='' download=''>Cv(&#8595;);</a>
           </div>
 
          </div>
