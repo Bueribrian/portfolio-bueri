@@ -36,8 +36,8 @@ const cardProyect = ({ data, direction }) => {
           {tools.map((tool, id) => <li key={id} style={decideColorTool(tool)}>{tool}</li>)}
         </ul>
         <div className='proyect-item-content--links'>
-          <a className='' rel="noopener noreferrer" target='_blank' href={githubUrl}><i className="fab fa-github"></i></a>
-          <a className='' rel="noopener noreferrer" target='_blank' href={url}>Visitar <i className="fas fa-arrow-circle-right"></i></a>
+          <a className='' rel="noopener noreferrer" target='_blank' href=''><i className="fab fa-github"></i></a>
+          <a className='' rel="noopener noreferrer" target='_blank' href=''>Visitar <i className="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
     </div>
