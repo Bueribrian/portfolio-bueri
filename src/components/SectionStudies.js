@@ -12,7 +12,7 @@ export default () => {
        <li>#Javascript30 - Curso online 30 dias de Vanilla javascript</li>
        <li>Curso Udemy - Begginer fullstack web developer</li>
        <li>ComunidadIT - Curso acelerado presencial desarrollo web</li>
-       <li>E.T.N°3 - Maria Sanchez de Thompson</li>
+       <li>----</li>
       </ul>
 
       </div>
